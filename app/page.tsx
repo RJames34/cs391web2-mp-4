@@ -16,19 +16,16 @@ const StyledDiv = styled.div`
 `;
 
 const StyledH1 = styled.h1`
-    font-size: 100px;
     color: #ef4800;
     margin: 0;
 `;
 
 const StyledP = styled.p`
-    font-size: 55px;
     color: Black;
     margin: 0;
 `;
 
 const StyledInput = styled.input`
-    font-size: 55px;
     color: Black;
     padding: 18px 24px;
     width: 700px;
@@ -38,7 +35,6 @@ const StyledInput = styled.input`
 `;
 
 const StyledLink = styled(Link)`
-    font-size: 65px;
     padding: 18px 60px;
     background: #ef4800;
     color: Black;
