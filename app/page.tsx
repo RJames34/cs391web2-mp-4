@@ -8,9 +8,9 @@ import Link from "next/link";
 const StyledDiv = styled.div`
     margin: 0 auto;
     display: flex;
+    height: 100vh;
     flex-direction: column;
     align-items: center;
-    display: flex;
     gap: 20px;
     background-color: #ffe8b9;
     font-size: 20px;
@@ -18,17 +18,15 @@ const StyledDiv = styled.div`
 
 const StyledH1 = styled.h1`
     color: #ef4800;
-    margin: 0;
 `;
 
 const StyledP = styled.p`
     color: Black;
-    margin: 0;
 `;
 
 const StyledInput = styled.input`
     color: Black;
-    padding: 18px 24px;
+    // padding: 18px 24px;
     width: 400px;
     height: 40px;
     border: 5px solid #ef4800;
