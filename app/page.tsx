@@ -6,7 +6,6 @@ import {useState} from "react";
 import Link from "next/link";
 
 const StyledDiv = styled.div`
-    margin: 20px;
     display: flex;
     height: 100vh;
     flex-direction: column;
@@ -18,12 +17,12 @@ const StyledDiv = styled.div`
 
 const StyledH1 = styled.h1`
     color: #ef4800;
-    margin: 20px;
+    margin: 12px;
 `;
 
 const StyledP = styled.p`
     color: Black;
-    margin: 20px;
+    margin: 12px;
 `;
 
 const StyledInput = styled.input`
