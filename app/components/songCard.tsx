@@ -5,10 +5,9 @@ const SongCardWrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
     border: 4px solid #ef4800;
     margin: 15px;
-    width: 400px;
+    width: 200px;
     border-radius: 16px;
     background-color: #fff2ab;
     font-size: 30px;
@@ -33,8 +32,8 @@ export default function SongCard(props: Song) {
             <img
                 src={props.song_art_image_thumbnail_url}
                 alt={props.title}
-                width={100}
-                height={100}
+                width={150}
+                height={150}
             />
             <SongTitle>{props.title}</SongTitle>
             <ArtistName>{props.primary_artist.name}</ArtistName>
