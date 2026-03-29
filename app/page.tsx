@@ -1,49 +1,44 @@
 "use client";
-
 import styled from "styled-components";
-
 import {useState} from "react";
 import Link from "next/link";
 
 const StyledDiv = styled.div`
     display: flex;
-    background-color: #ffe8b9;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    gap: 45px;
+    gap: 16px;
 `;
 
 const StyledH1 = styled.h1`
-    font-size: 100px;
     color: #ef4800;
     margin: 0;
+    font-size: 1.8rem;
 `;
 
 const StyledP = styled.p`
-    font-size: 55px;
-    color: Black;
+    color: black;
     margin: 0;
+    font-size: 0.9rem;
 `;
 
 const StyledInput = styled.input`
-    font-size: 65px;
-    color: Black;
-    padding: 18px 24px;
-    width: 700px;
-    height: 40px;
-    border: 5px solid #ef4800;
+    padding: 8px 12px;
+    width: 300px;
+    border: 2px solid #ef4800;
     border-radius: 10px;
+    font-size: 0.9rem;
 `;
 
 const StyledLink = styled(Link)`
-    font-size: 65px;
-    padding: 18px 60px;
+    padding: 8px 20px;
     background: #ef4800;
-    color: Black;
+    color: white;
     border-radius: 10px;
-    text-decoration: none
+    text-decoration: none;
+    font-size: 0.9rem;
 `;
 
 export default function Home() {
@@ -53,15 +48,15 @@ export default function Home() {
         <StyledDiv>
             <StyledH1>Find Songs by any Artist!</StyledH1>
             <StyledP>Enter an artist name below to see their top songs</StyledP>
-            <StyledP> Spell the artist name correctly</StyledP>
-            <StyledP> Ex: Queen ( The best band ever!!!) </StyledP>
+            <StyledP>Spell the artist name correctly</StyledP>
+            <StyledP>Ex: Queen</StyledP>
             <StyledInput
                 type="text"
                 value={artist}
                 placeholder="Artist name"
                 onChange={(e) => setArtist(e.target.value)}
             />
-            <StyledLink href={`/${artist}`}> Look at the Songs</StyledLink>
+            <StyledLink href={`/${artist}`}>Look at the Songs</StyledLink>
         </StyledDiv>
     );
 }
