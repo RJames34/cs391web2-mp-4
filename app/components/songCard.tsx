@@ -6,7 +6,7 @@ const SongCardWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     border: 4px solid #ef4800;
-    margin: 15px;
+    margin: 20px;
     width: 200px;
     border-radius: 16px;
     background-color: #fff2ab;
