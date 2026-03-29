@@ -6,12 +6,11 @@ import {useState} from "react";
 import Link from "next/link";
 
 const StyledDiv = styled.div`
-    margin: 10px;
     display: flex;
     height: 100vh;
     flex-direction: column;
     align-items: center;
-    // gap: 2px;
+    gap: 2px;
     justify-content: center; 
     background-color: #ffe8b9;
     font-size: 25px;
