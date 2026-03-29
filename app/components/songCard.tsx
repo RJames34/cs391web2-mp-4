@@ -11,7 +11,7 @@ const SongCardWrapper = styled.div`
     width: 400px;
     border-radius: 16px;
     background-color: #fff2ab;
-    font-size: 20px;
+    font-size: 30px;
 `;
 
 const SongTitle = styled.p`
@@ -33,8 +33,8 @@ export default function SongCard(props: Song) {
             <img
                 src={props.song_art_image_thumbnail_url}
                 alt={props.title}
-                width={200}
-                height={200}
+                width={100}
+                height={100}
             />
             <SongTitle>{props.title}</SongTitle>
             <ArtistName>{props.primary_artist.name}</ArtistName>
