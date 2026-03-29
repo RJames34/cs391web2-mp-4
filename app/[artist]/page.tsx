@@ -13,6 +13,7 @@ const ArtistContentWrapper = styled.main`
     align-items: center;
     width: 80vw;
     margin: auto;
+    font-size: 20px;
 `;
 
 const SongsContainer = styled.div`
