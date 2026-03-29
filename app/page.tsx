@@ -18,13 +18,16 @@ const StyledDiv = styled.div`
 
 const StyledH1 = styled.h1`
     color: #ef4800;
+    margin: 0;
 `;
 
 const StyledP = styled.p`
     color: Black;
+    margin: 0;
 `;
 
 const StyledInput = styled.input`
+    margin-bottom: 5px;
     color: Black;
     padding: 14px 16px;
     width: 200px;
