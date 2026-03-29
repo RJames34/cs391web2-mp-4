@@ -11,7 +11,7 @@ const StyledDiv = styled.div`
     height: 100vh;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     background-color: #ffe8b9;
     font-size: 20px;
 `;
