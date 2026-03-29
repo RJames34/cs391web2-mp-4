@@ -7,11 +7,13 @@ const SongCardWrapper = styled.div`
     align-items: center;
     border: 4px solid #ef4800;
     margin: 20px;
-    margin-top: 10px;
     width: 200px;
     border-radius: 16px;
     background-color: #fff2ab;
     font-size: 30px;
+    img {
+            margin-top: 5px;
+        }
 `;
 
 const SongTitle = styled.p`
