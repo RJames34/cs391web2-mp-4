@@ -13,6 +13,7 @@ const StyledDiv = styled.div`
     justify-content: center;
     height: 100vh;
     gap: 45px;
+    font-size: 40px;
 `;
 
 const StyledH1 = styled.h1`
@@ -31,7 +32,7 @@ const StyledInput = styled.input`
     font-size: 100%;
     color: Black;
     padding: 18px 24px;
-    width: 700px;
+    width: 200px;
     height: 40px;
     border: 5px solid #ef4800;
     border-radius: 10px;
