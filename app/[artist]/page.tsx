@@ -13,7 +13,6 @@ const ArtistContentWrapper = styled.main`
     align-items: center;
     width: 80vw;
     margin: auto;
-    font-size: 20px;
 `;
 
 const SongsContainer = styled.div`
@@ -22,6 +21,7 @@ const SongsContainer = styled.div`
 `;
 
 const StyledLink = styled(Link)`
+    font-size: 65px;
     background-color: #ef4800;
     border: 5px none;
     border-radius: 30px;
@@ -32,6 +32,7 @@ const StyledLink = styled(Link)`
 `;
 
 const StyledError = styled.h2`
+    font-size: 100px;
     color: #ef4800;
     margin-top: 500px;
 `;
