@@ -11,7 +11,8 @@ const StyledDiv = styled.div`
     height: 100vh;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 3px;
+    justify-content: center; 
     background-color: #ffe8b9;
     font-size: 20px;
 `;
@@ -27,9 +28,9 @@ const StyledP = styled.p`
 const StyledInput = styled.input`
     color: Black;
     // padding: 18px 24px;
-    width: 400px;
+    width: 200px;
     height: 40px;
-    border: 5px solid #ef4800;
+    border: 3px solid #ef4800;
     border-radius: 10px;
 `;
 
