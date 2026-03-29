@@ -13,6 +13,7 @@ const StyledDiv = styled.div`
     justify-content: center;
     height: 100vh;
     gap: 45px;
+    font-size: 20px;
 `;
 
 const StyledH1 = styled.h1`
