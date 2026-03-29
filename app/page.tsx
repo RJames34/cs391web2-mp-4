@@ -10,7 +10,7 @@ const StyledDiv = styled.div`
     height: 100vh;
     flex-direction: column;
     align-items: center;
-    gap: 2px;
+    gap: 0;
     justify-content: center; 
     background-color: #ffe8b9;
     font-size: 25px;
