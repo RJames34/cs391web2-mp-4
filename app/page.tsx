@@ -6,11 +6,13 @@ import {useState} from "react";
 import Link from "next/link";
 
 const StyledDiv = styled.div`
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     display: flex;
-    font-size: 30px;
+    gap: 20px;
+    font-size: 20px;
 `;
 
 const StyledH1 = styled.h1`
