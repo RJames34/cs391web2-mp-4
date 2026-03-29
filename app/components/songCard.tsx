@@ -11,10 +11,10 @@ const SongCardWrapper = styled.div`
     width: 400px;
     border-radius: 16px;
     background-color: #fff2ab;
+    font-size: 20px;
 `;
 
 const SongTitle = styled.p`
-    font-size: 80px;
     font-weight: bold;
     text-align: center;
     margin: 16px 0 8px;
@@ -22,7 +22,6 @@ const SongTitle = styled.p`
 `;
 
 const ArtistName = styled.p`
-    font-size: 50px;
     color: Black;
     text-align: center;
     margin: 0;
