@@ -7,11 +7,9 @@ import Link from "next/link";
 
 const StyledDiv = styled.div`
     display: flex;
-    background-color: #ffe8b9;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100%;
+    display: flex;
     font-size: 30px;
 `;
 
