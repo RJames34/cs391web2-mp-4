@@ -12,6 +12,7 @@ const StyledDiv = styled.div`
     align-items: center;
     display: flex;
     gap: 20px;
+    background-color: #ffe8b9;
     font-size: 20px;
 `;
 
